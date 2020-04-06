@@ -9,9 +9,9 @@ void inf()
 	int* pdynamic = new int;
 	*pdynamic = 2347;
 
-	cout << "Адрес глобальной переменной: " << &pglobal << " значение: " << pglobal << endl;
-	cout << "Адрес автоматической переменной: " << &pauto << " значение: " << pauto << endl;
-	cout << "Адрес динамической переменной: " << pdynamic << " значение: " << *pdynamic << endl;
+	cout << "Global: " << &pglobal << " Value: " << pglobal << endl;
+	cout << "Auto: " << &pauto << " Value: " << pauto << endl;
+	cout << "Dynamic: " << pdynamic << " Value: " << *pdynamic << endl;
 
 	delete pdynamic;
 }
