@@ -13,21 +13,21 @@ void inf()
 	for (int i = 0; i < 3; ++i)
 	DynamicDoubleMassive[i] = new int[3];
 
-	cout << "Адрес одномерного статичного массива:" << endl;
+	cout << "Static Single Massive Adress:" << endl;
 	for (int i = 0; i < 3; ++i)
 	{
 		cout << &(StaticSingleMassive[i]) << " ";
 	}
 	cout << endl << endl;
 
-	cout << "Адрес одномерного динамического массива:" << endl;
+	cout << "Dynamic Single Massive Adress:" << endl;
 	for (int i = 0; i < 3; ++i)
 	{
 		cout << &(DynamicSingleMassive[i]) << " ";
 	}
 	cout << endl << endl;
 
-	cout << "Адрес двумерного статичного массива:" << endl;
+	cout << "Static Double Massive Adress:" << endl;
 	for (int i = 0; i < 3; ++i)
 	{
 		for (int j = 0; j < 3; ++j)
@@ -37,7 +37,7 @@ void inf()
 		cout << endl;
 	}
 	cout << endl;
-	cout << "Адрес двумерного динамического массива:" << endl;
+	cout << "Dynamic Double Massive Adress:" << endl;
 	for (int i = 0; i < 3; ++i)
 	{
 		for (int k = 0; k < 3; ++k)
