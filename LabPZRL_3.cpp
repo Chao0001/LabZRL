@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-typedef struct CONNECTION_DESCRIPTION_1 // это структура без выравнивания и не упорядочена 
+typedef struct CONNECTION_DESCRIPTION_1 // СЃС‚СЂСѓРєС‚СѓСЂР° Р±РµР· РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ Рё РЅРµ СѓРїРѕСЂСЏРґРѕС‡РµРЅР°
 {
     int connection_type;
     unsigned long long ip_adress;
@@ -9,7 +9,7 @@ typedef struct CONNECTION_DESCRIPTION_1 // это структура без выравнивания и не у
 } CONNECTION_DESCRIPTION_1;
 
 #pragma pack(push, 1)
-typedef struct CONNECTION_DESCRIPTION_2 //структура с выравниванием и не упорядочена
+typedef struct CONNECTION_DESCRIPTION_2 //СЃС‚СЂСѓРєС‚СѓСЂР° СЃ РІС‹СЂР°РІРЅРёРІР°РЅРёРµРј Рё РЅРµ СѓРїРѕСЂСЏРґРѕС‡РµРЅР°
 {
     unsigned long long ip_adress;
     char connection_name[112];
@@ -18,7 +18,7 @@ typedef struct CONNECTION_DESCRIPTION_2 //структура с выравниванием и не упорядо
 } CONNECTION_DESCRIPTION_2;
 #pragma pack(pop)
 
-typedef struct CONNECTION_DESCRIPTION_3 // эта структура только упорядочена
+typedef struct CONNECTION_DESCRIPTION_3 // СЃС‚СЂСѓРєС‚СѓСЂР° Р±РµР· РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ, РЅРѕ СѓРїРѕСЂСЏРґРѕС‡РµРЅР°
 {
     char connection_name[112];
     unsigned long long ip_adress;
